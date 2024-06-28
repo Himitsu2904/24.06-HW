@@ -128,9 +128,11 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="printer.cpp" />
     <ClCompile Include="printer_alternative.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="printer.h" />
     <ClInclude Include="printer_alternative.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

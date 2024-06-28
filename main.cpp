@@ -39,7 +39,7 @@ int main()
 			}
 			name = new char[strlen(buff) + 1];
 			strcpy(name, buff);
-			name[strlen(buff)] = '\0';
+			name[strlen(name)] = '\0';
 			Laserjet.Add(name, prio);
 			break;
 		case 3:

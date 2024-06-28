@@ -111,6 +111,7 @@ void printer_alternative::Print()
 		cout << "Enter username: ";
 		char buff[100];
 		gets_s(buff, 100);
+		cin.ignore();
 		if (stat_ind == max_queue_length)
 		{
 			for (int i = 0; i < max_queue_length - 1; i++)
@@ -136,12 +137,10 @@ void printer_alternative::Print()
 		strcat(statistics[stat_ind], name);
 		strcat(statistics[stat_ind], "\"\t");
 		strcat(statistics[stat_ind], date);
-		cout << "strlen = " << strlen(statistics[stat_ind]) << endl;
-		cout << "statistics[stat_ind] = " << statistics[stat_ind] << endl;
 		FILE* f = fopen(file, "rt");
 		if (f == NULL)
 		{
-			cout << "File " << file_queue[max_prio_pos] << " can't be opened.";
+			cout << "File " << file_queue[max_prio_pos] << " can't be opened." << endl;
 			return;
 		}
 		while (fgets(buff, 100, f))
@@ -175,7 +174,6 @@ void printer_alternative::Statistics()
 {
 	cout << "Printing statistics (last " << max_queue_length << " prints):" << endl;
 	cout << "USER || FILE || DATE" << endl;
-	cout << "stat_ind = " << stat_ind << endl;
 	for (int i = 0; i < stat_ind; i++)
 	{
 		if (statistics[i] != nullptr)

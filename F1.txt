@@ -1,0 +1,3 @@
+This is the first file.
+Let's imagine it's some report about employees' work for May 15-June 15.
+File is checked and approved.

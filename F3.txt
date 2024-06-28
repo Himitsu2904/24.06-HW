@@ -1,0 +1,3 @@
+This is the third file.
+It's an article, which will be edited after print and sent for final check before publication in a scientific magazine.
+7th version of the article.

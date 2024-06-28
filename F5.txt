@@ -1,0 +1,12 @@
+This is the fifth file.
+It's a list of stages of game development:
+- brainstorm - 100%
+- game design document - 100%
+- prototyping - 100%
+- sponsors search - 100%
+- characters design - 80%
+- narrative design - 43%
+- gameplay programming - 72%
+- beta testing - 28%
+- marketing - 0%
+Last update on May 28th.

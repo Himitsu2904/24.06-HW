@@ -1,0 +1,3 @@
+This is the fourth file.
+It's an application about hiring a new C# programmer to the Web-development team.
+Is sent on June 18th. 2-week term for a check.
